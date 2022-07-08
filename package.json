@@ -1,20 +1,25 @@
 {
-  "name": "vite-vue-typescript-starter",
-  "private": true,
+  "name": "vite-vue2.7",
   "version": "0.0.0",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3456",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "vue": "2.7.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.3",
-    "typescript": "^4.6.4",
+    "@unocss/reset": "^0.43.2",
+    "@unocss/transformer-directives": "^0.43.2",
+    "@unocss/transformer-variant-group": "^0.43.2",
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "typescript": "^4.5.4",
     "vite": "^2.9.13",
-    "vue-tsc": "^0.38.2"
+    "vue-demi": "^0.13.2",
+    "vue-tsc": "^0.34.7",
+    "unocss": "^0.43.2"
   }
 }
