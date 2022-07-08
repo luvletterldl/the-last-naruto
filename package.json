@@ -1,16 +1,18 @@
 {
-  "name": "vite-vue2.7",
-  "version": "0.0.0",
+  "packageManager": "pnpm@7.5.0",
   "private": true,
   "scripts": {
-    "dev": "vite --port 3456",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "dev": "vite --port 3333 --open",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "@vueuse/core": "^8.9.0",
     "vue": "2.7.3",
-    "vue-router": "^4.1.1"
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",

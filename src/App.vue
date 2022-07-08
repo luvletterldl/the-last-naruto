@@ -1,15 +1,8 @@
 <template>
-  <div>
-    <!-- <router-view /> -->
-    <h1>root</h1>
-    <HelloWorld msg="123" />
+  <div id="root">
+    <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
+      <router-view />
+      <Footer />
+    </main>
   </div>
 </template>
-
-<style scoped>
-html,
-body,
-#app {
-  @apply text-bk font-400 w-screen h-screen m-0 p-0;
-}
-</style>
