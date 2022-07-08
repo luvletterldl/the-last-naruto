@@ -1,16 +1,18 @@
 <script setup lang="ts">
-import { router } from '~/main';
-const name = ref('');
-const go = () => {
-  if (name) router.push(`/hi/${encodeURIComponent(name.value)}`);
-};
+import { router } from '~/main'
+const name = ref('')
+function go() {
+  if (name.value)
+    router.push(`/hi/${encodeURIComponent(name.value)}`)
+}
 </script>
 
 <template>
   <div>
-    <div i-carbon-campsite text-4xl inline-block />
+    <div color-black-300 i-carbon-campsite text-4xl inline-block />
     <p>
       <a
+        color-black-300
         rel="noreferrer"
         href="https://github.com/luvletterldl/the-last-naruto"
         target="_blank"
@@ -37,10 +39,12 @@ const go = () => {
       border="~ rounded gray-200 dark:gray-700"
       outline="none active:none"
       @keydown.enter="go"
-    />
+    >
 
     <div>
-      <button class="m-3 text-sm btn" :disabled="!name" @click="go">Go</button>
+      <button class="m-3 text-sm btn" :disabled="!name" @click="go">
+        Go
+      </button>
     </div>
   </div>
 </template>

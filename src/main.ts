@@ -1,22 +1,22 @@
-import Vue from 'vue';
-import App from './App.vue';
-import routes from 'virtual:generated-pages';
-import VueRouter from 'vue-router';
+import Vue from 'vue'
+import routes from 'virtual:generated-pages'
+import VueRouter from 'vue-router'
+import App from './App.vue'
 
-import '@unocss/reset/tailwind.css';
-import 'uno.css';
+import '@unocss/reset/tailwind.css'
+import 'uno.css'
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 export const router = new VueRouter({
   mode: 'history',
   base: '.',
   routes,
-});
+})
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 new Vue({
   router,
-  render: (h) => h(App),
-}).$mount('#app');
+  render: h => h(App),
+}).$mount('#app')

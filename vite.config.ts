@@ -1,13 +1,13 @@
-import path from 'path';
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue2';
-import Pages from 'vite-plugin-pages';
-import legacy from '@vitejs/plugin-legacy';
-import Components from 'unplugin-vue-components/vite';
-import AutoImport from 'unplugin-auto-import/vite';
-import Unocss from 'unocss/vite';
-import transformerDirective from '@unocss/transformer-directives';
-import transformerVariantGroup from '@unocss/transformer-variant-group';
+import path from 'path'
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue2'
+import Pages from 'vite-plugin-pages'
+import legacy from '@vitejs/plugin-legacy'
+import Components from 'unplugin-vue-components/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import Unocss from 'unocss/vite'
+import transformerDirective from '@unocss/transformer-directives'
+import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -50,4 +50,4 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
   },
-});
+})
