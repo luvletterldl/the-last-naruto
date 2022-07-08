@@ -13,6 +13,7 @@
     "vue-router": "^4.1.1"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
     "@unocss/reset": "^0.43.2",
     "@unocss/transformer-directives": "^0.43.2",
     "@unocss/transformer-variant-group": "^0.43.2",
@@ -26,5 +27,8 @@
     "vite-plugin-pages": "^0.25.0",
     "vue-demi": "^0.13.2",
     "vue-tsc": "^0.34.7"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
   }
 }
