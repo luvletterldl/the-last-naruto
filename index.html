@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vite + Vue2.7 Starter Template">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>The Last Naruto</title>
   </head>
-  <body>
+  <body class="font-sans dark:text-white dark:bg-hex-121212">
     <div id="app"></div>
+    <script>
+      (function () {
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        const setting = localStorage.getItem('color-schema') || 'auto'
+        if (setting === 'dark' || (prefersDark && setting !== 'light'))
+          document.documentElement.classList.toggle('dark', true)
+      })()
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

@@ -20,7 +20,7 @@ function go() {
       </a>
     </p>
     <p>
-      <em text-sm op75>Opinionated Vite Starter Template</em>
+      <em text-sm op75>Vite + Vue2.7 Starter Template</em>
     </p>
 
     <div py-4 />
