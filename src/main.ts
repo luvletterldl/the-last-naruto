@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 
 import '@unocss/reset/tailwind.css'
+import '~/styles/main.css'
 import 'uno.css'
 
 Vue.config.productionTip = false

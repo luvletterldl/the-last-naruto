@@ -9,10 +9,9 @@ function go() {
 
 <template>
   <div>
-    <div color-black-300 i-carbon-campsite text-4xl inline-block />
+    <div i-carbon-campsite text-4xl inline-block />
     <p>
       <a
-        color-black-300
         rel="noreferrer"
         href="https://github.com/luvletterldl/the-last-naruto"
         target="_blank"

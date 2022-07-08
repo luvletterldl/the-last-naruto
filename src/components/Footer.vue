@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import { toggleDark } from '~/composables'
 </script>
 
