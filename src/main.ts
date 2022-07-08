@@ -8,7 +8,7 @@ import 'uno.css';
 
 Vue.config.productionTip = false;
 
-const router = new VueRouter({
+export const router = new VueRouter({
   mode: 'history',
   base: '.',
   routes,
@@ -19,4 +19,4 @@ Vue.use(VueRouter);
 new Vue({
   router,
   render: (h) => h(App),
-}).$mount('#root');
+}).$mount('#app');

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { router } from '~/main'
+import { router } from '~/main';
 const name = ref('');
 const go = () => {
-  if (name) router.push(`/hi/${encodeURIComponent(name)}`);
+  if (name) router.push(`/hi/${encodeURIComponent(name.value)}`);
 };
 </script>
 
