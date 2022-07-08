@@ -1,3 +1,6 @@
+<script>
+import { toggleDark } from '~/composables';
+</script>
 <template>
   <nav text-xl mt-6 inline-flex gap-2>
     <button icon-btn @click="toggleDark()">
@@ -8,7 +11,7 @@
       icon-btn
       i-carbon-logo-github
       rel="noreferrer"
-      href="https://github.com/antfu/vitesse-lite"
+      href="https://github.com/luvletterldl/the-last-naruto"
       target="_blank"
       title="GitHub"
     />

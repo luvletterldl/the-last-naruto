@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "build": "vite build",
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3456 --open",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
@@ -21,6 +21,8 @@
     "@unocss/transformer-variant-group": "^0.43.2",
     "@vitejs/plugin-legacy": "^1.8.2",
     "@vitejs/plugin-vue2": "^1.1.2",
+    "@vue/test-utils": "^2.0.1",
+    "eslint": "^8.18.0",
     "typescript": "^4.5.4",
     "unocss": "^0.43.2",
     "unplugin-auto-import": "^0.9.2",
@@ -28,6 +30,7 @@
     "vite": "^2.9.13",
     "vite-plugin-pages": "^0.25.0",
     "vue-demi": "^0.13.2",
+    "vitest": "^0.16.0",
     "vue-tsc": "^0.34.7"
   },
   "eslintConfig": {

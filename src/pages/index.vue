@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import { router } from '~/main'
 const name = ref('');
-const router = useRouter();
 const go = () => {
   if (name) router.push(`/hi/${encodeURIComponent(name)}`);
 };

@@ -45,4 +45,9 @@ export default defineConfig({
       transformers: [transformerVariantGroup(), transformerDirective()],
     }),
   ],
+  
+  // https://github.com/vitest-dev/vitest
+  test: {
+    environment: 'jsdom',
+  },
 });
