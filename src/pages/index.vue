@@ -9,7 +9,6 @@ function go() {
 
 <template>
   <div>
-    <carbon-icon name="campsite" text-4xl size="14" />
     <header w-120 my-3 mx-auto flex items-center justify-between>
       <img w-30 src="https://user-images.githubusercontent.com/499550/176823239-f59d75de-1d24-4b2d-b04b-fcc95db2903e.png" alt="naruto logo">
       🔗

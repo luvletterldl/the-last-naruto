@@ -36,11 +36,6 @@
 
 - [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
-### Icons
-
-- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
 ### Plugins
 
 - [Vue Router@3](https://github.com/vuejs/vue-router)
