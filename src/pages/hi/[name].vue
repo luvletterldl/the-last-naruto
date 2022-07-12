@@ -5,7 +5,7 @@ const props = defineProps<{ name: string }>()
 
 <template>
   <div>
-    <div i-carbon-pedestrian text-4xl inline-block />
+    <carbon-icon name="pedestrian" text-4xl size="14" />
     <p>Hi, {{ props.name }}</p>
     <p text-sm op50>
       <em>Dynamic route!</em>

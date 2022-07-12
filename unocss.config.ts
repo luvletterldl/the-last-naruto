@@ -19,6 +19,7 @@ export default defineConfig({
       'text-[0.9em] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600 !outline-none',
     ],
   ],
+  safelist: 'w-6 h-6 w-10 w-14 h-14 h-10 w-20 h-20'.split(' '),
   presets: [
     presetUno(),
     presetAttributify(),
