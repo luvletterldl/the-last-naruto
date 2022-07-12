@@ -10,7 +10,7 @@ function go() {
 <template>
   <div>
     <div i-carbon-campsite text-4xl inline-block />
-    <header w-120 my-3 mx-auto flex items-center justify-evenly>
+    <header w-120 my-3 mx-auto flex items-center justify-between>
       <img w-30 src="https://user-images.githubusercontent.com/499550/176823239-f59d75de-1d24-4b2d-b04b-fcc95db2903e.png" alt="naruto logo">
       🔗
       <img w-30 src="https://upload.wikimedia.org/wikipedia/commons/c/c0/IE11_Cyan_rgb_vertical.svg" alt="ie11 logo">
