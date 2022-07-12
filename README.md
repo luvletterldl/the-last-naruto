@@ -64,3 +64,7 @@ npx degit luvletterldl/the-last-naruto my-vue2.7
 cd my-vue2.7
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
+
+# Acknowledgement
+
+[vitesse-lite](https://github.com/antfu/vitesse-lite)
