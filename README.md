@@ -28,6 +28,8 @@
 
 - 🦾 TypeScript, of course
 
+- ☁️ Deploy on Netlify, zero-config
+
 # Pre-packed
 
 ## Pre-packed
