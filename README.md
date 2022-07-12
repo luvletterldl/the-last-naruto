@@ -1,7 +1,14 @@
 # The Last Naruto
 
+<main style="display: flex; align-items: center;">
+  <image width='300px' src='https://upload.wikimedia.org/wikipedia/commons/c/c0/IE11_Cyan_rgb_vertical.svg' />
+  <image width='300px' src='https://user-images.githubusercontent.com/499550/176823239-f59d75de-1d24-4b2d-b04b-fcc95db2903e.png' />
+  <image width='100px' src='https://vitejs.dev/logo.svg' />
+</main>
 
 # Features
+
+- 👍 Support IE11 by [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy)
 
 - ⚡️ [Vue 2.7](https://github.com/vuejs/vue), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
@@ -18,8 +25,6 @@
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
 
 - 🦾 TypeScript, of course
-
-- ☁️ Deploy on Netlify, zero-config
 
 # Pre-packed
 
