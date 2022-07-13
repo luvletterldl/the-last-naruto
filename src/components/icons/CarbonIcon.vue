@@ -20,11 +20,19 @@ const Icons = {
   'logo-github': 'https://api.iconify.design/carbon:logo-github.svg',
   'pedestrian': 'https://api.iconify.design/carbon:pedestrian.svg',
 }
+
+const IconName = {
+  'campsite': 'i-carbon-campsite',
+  'moon': 'i-carbon-moon',
+  'sun': 'i-carbon-sun',
+  'logo-github': 'i-carbon-logo-github',
+  'pedestrian': 'i-carbon-pedestrian',
+}
 </script>
 
 <template>
   <div :class="isIE ? `w-${size} h-${size}` : ''" display-context inline-block text-center>
     <div v-if="isIE" :class="`w-${size} h-${size}`" :style="{ backgroundImage: `url(${Icons[name]})`, backgroundSize: '100% 100%' }" />
-    <div v-else :class="`i-carbon-${name}`" inline-block />
+    <div v-else :class="`${IconName[name]} text-${size}`" inline-block />
   </div>
 </template>
