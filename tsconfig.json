@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "ES5",
+    "target": "ES6",
     "useDefineForClassFields": true,
     "module": "esnext",
     "moduleResolution": "node",
