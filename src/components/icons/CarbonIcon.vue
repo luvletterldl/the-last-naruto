@@ -2,14 +2,12 @@
 import { isIE } from '~/lib/index'
 interface IconProps {
   color?: string
-  darkColor?: string
   name: string
   size?: number | string
 }
 
 withDefaults(defineProps<IconProps> (), {
   color: '#374151',
-  darkColor: '#E5E7EB',
   size: 6,
 })
 

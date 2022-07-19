@@ -12,7 +12,7 @@
 
 - 👍 Support IE11 by [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy)
 
-- ⚡️ [Vue 2.7](https://github.com/vuejs/vue), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- ⚡️ [Vue 2.7](https://github.com/vuejs/vue), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
 
@@ -21,6 +21,7 @@
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
 - 😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+  - IE11([partial support](./src/components/icons/README.md))
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
@@ -39,6 +40,7 @@
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
+  - IE11([partial support](./src/components/icons/README.md))
 - [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 ### Plugins
