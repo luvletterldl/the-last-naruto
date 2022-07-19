@@ -1,12 +1,6 @@
 # The Last Naruto
 
-<main style="display: flex; align-items: center; justify-content: space-evenly;">
-  <img width='300px' src='https://user-images.githubusercontent.com/499550/176823239-f59d75de-1d24-4b2d-b04b-fcc95db2903e.png' />
-  🔗
-  <img width='300px' src='https://upload.wikimedia.org/wikipedia/commons/c/c0/IE11_Cyan_rgb_vertical.svg' />
-  🔗
-  <img width='100px' src='https://vitejs.dev/logo.svg' />
-</main>
+![The Last Naruto Logo](./public/logo.webp)
 
 # Features
 
