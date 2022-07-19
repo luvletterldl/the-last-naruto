@@ -70,3 +70,4 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 # Acknowledgement
 
 [vitesse-lite](https://github.com/antfu/vitesse-lite)
+[ie11CustomProperties](https://github.com/nuxodin/ie11CustomProperties)
