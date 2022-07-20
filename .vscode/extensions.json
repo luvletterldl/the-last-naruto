@@ -4,5 +4,8 @@
     "antfu.unocss",
     "Vue.volar",
     "dbaeumer.vscode-eslint"
+  ],
+  "unwantedRecommendations": [
+    "octref.vetur"
   ]
 }
