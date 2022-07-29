@@ -2,6 +2,8 @@
 
 ![The Last Naruto Logo](./public/logo.webp)
 
+[中文](https://juejin.cn/post/7122016953593495560)
+
 # Features
 
 - 👍 Support IE11 by [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy)
