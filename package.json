@@ -1,41 +1,43 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.6.0",
+  "packageManager": "pnpm@7.8.0",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3456 --open",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "up": "taze major -I"
   },
   "dependencies": {
-    "@vueuse/core": "^9.0.0",
+    "@vueuse/core": "^9.0.2",
     "vue": "2.7.8",
     "vue-router": "3.5.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
     "@iconify-json/carbon": "^1.1.7",
-    "@unocss/reset": "^0.44.7",
-    "@unocss/transformer-directives": "^0.44.7",
-    "@unocss/transformer-variant-group": "^0.44.7",
+    "@unocss/reset": "^0.45.1",
+    "@unocss/transformer-directives": "^0.45.1",
+    "@unocss/transformer-variant-group": "^0.45.1",
     "@vitejs/plugin-legacy": "^2.0.0",
     "@vitejs/plugin-vue2": "^1.1.2",
     "@vue/test-utils": "^2.0.2",
-    "eslint": "^8.20.0",
+    "eslint": "^8.21.0",
     "jsdom": "^20.0.0",
-    "pnpm": "^7.6.0",
+    "pnpm": "^7.8.0",
+    "taze": "^0.7.6",
     "terser": "^5.14.2",
     "typescript": "^4.7.4",
-    "unocss": "^0.44.7",
-    "unplugin-auto-import": "^0.10.2",
+    "unocss": "^0.45.1",
+    "unplugin-auto-import": "^0.10.3",
     "unplugin-vue-components": "^0.21.2",
     "vite": "^3.0.4",
     "vite-plugin-pages": "^0.25.0",
-    "vitest": "^0.19.1",
+    "vitest": "^0.20.3",
     "vue-demi": "^0.13.6",
-    "vue-tsc": "^0.39.2"
+    "vue-tsc": "^0.39.4"
   },
   "eslintConfig": {
     "extends": "@antfu"
