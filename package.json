@@ -12,15 +12,15 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.1.0",
-    "vue": "2.7.9",
+    "vue": "2.7.10",
     "vue-router": "3.5.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",
     "@iconify-json/carbon": "^1.1.7",
-    "@unocss/reset": "^0.45.9",
-    "@unocss/transformer-directives": "^0.45.9",
-    "@unocss/transformer-variant-group": "^0.45.9",
+    "@unocss/reset": "^0.45.12",
+    "@unocss/transformer-directives": "^0.45.12",
+    "@unocss/transformer-variant-group": "^0.45.12",
     "@vitejs/plugin-legacy": "^2.0.1",
     "@vitejs/plugin-vue2": "^1.1.2",
     "@vue/test-utils": "^2.0.2",
@@ -30,7 +30,7 @@
     "taze": "^0.7.6",
     "terser": "^5.14.2",
     "typescript": "^4.7.4",
-    "unocss": "^0.45.9",
+    "unocss": "^0.45.12",
     "unplugin-auto-import": "^0.11.2",
     "unplugin-vue-components": "^0.22.4",
     "vite": "^3.0.9",
