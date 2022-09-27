@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 import { isDark, toggleDark } from '~/composables'
 </script>
 
