@@ -11,7 +11,7 @@ withDefaults(defineProps<IconProps> (), {
   size: 6,
 })
 
-const Icons = {
+const Icons: Record<string, string> = {
   'campsite': 'https://api.iconify.design/carbon:campsite.svg',
   'moon': 'https://api.iconify.design/carbon:moon.svg',
   'sun': 'https://api.iconify.design/carbon:sun.svg',
@@ -19,7 +19,7 @@ const Icons = {
   'pedestrian': 'https://api.iconify.design/carbon:pedestrian.svg',
 }
 
-const IconName = {
+const IconName: Record<string, string> = {
   'campsite': 'i-carbon-campsite',
   'moon': 'i-carbon-moon',
   'sun': 'i-carbon-sun',

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { router } from '~/main'
 const name = ref('')
 function go() {
