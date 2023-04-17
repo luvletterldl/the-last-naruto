@@ -11,16 +11,16 @@
     "up": "taze major -I"
   },
   "dependencies": {
-    "@vueuse/core": "^9.13.0",
+    "@vueuse/core": "^10.0.2",
     "vue": "2.7.14",
     "vue-router": "3.6.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
     "@iconify-json/carbon": "^1.1.16",
-    "@unocss/reset": "^0.51.2",
-    "@unocss/transformer-directives": "^0.51.2",
-    "@unocss/transformer-variant-group": "^0.51.2",
+    "@unocss/reset": "^0.51.4",
+    "@unocss/transformer-directives": "^0.51.4",
+    "@unocss/transformer-variant-group": "^0.51.4",
     "@vitejs/plugin-legacy": "^4.0.2",
     "@vitejs/plugin-vue2": "^2.2.0",
     "@vue/test-utils": "^2.3.2",
@@ -30,13 +30,13 @@
     "taze": "^0.9.1",
     "terser": "^5.16.9",
     "typescript": "^5.0.4",
-    "unocss": "^0.51.2",
-    "unplugin-auto-import": "^0.15.2",
+    "unocss": "^0.51.4",
+    "unplugin-auto-import": "^0.15.3",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.2.1",
     "vite-plugin-pages": "^0.29.0",
-    "vitest": "^0.30.0",
-    "vue-demi": "^0.13.11",
+    "vitest": "^0.30.1",
+    "vue-demi": "^0.14.0",
     "vue-tsc": "^1.2.0"
   },
   "eslintConfig": {
