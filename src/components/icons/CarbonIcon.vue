@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { isIE } from '~/lib/index'
+
 interface IconProps {
   color?: string
   name: string

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { router } from '~/main'
+
 const props = defineProps<{ name: string }>()
 </script>
 
