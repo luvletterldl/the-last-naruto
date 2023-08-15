@@ -1,7 +1,7 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
-  autoInstallPeers: false
+  autoInstallPeers: true
   excludeLinksFromLockfile: false
 
 dependencies:
@@ -60,7 +60,7 @@ devDependencies:
     version: 5.1.6
   unocss:
     specifier: ^0.55.0
-    version: 0.55.0(vite@4.4.9)
+    version: 0.55.0(postcss@8.4.27)(vite@4.4.9)
   unplugin-auto-import:
     specifier: ^0.16.6
     version: 0.16.6(@vueuse/core@10.3.0)
@@ -69,7 +69,7 @@ devDependencies:
     version: 0.25.1(vue@2.7.14)
   vite:
     specifier: ^4.4.9
-    version: 4.4.9(terser@5.19.2)
+    version: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
   vite-plugin-pages:
     specifier: ^0.31.0
     version: 0.31.0(vite@4.4.9)
@@ -1809,7 +1809,7 @@ packages:
       nopt: 7.0.0
       proc-log: 3.0.0
       read-package-json-fast: 3.0.2
-      semver: 7.5.3
+      semver: 7.5.4
       walk-up-path: 3.0.1
     dev: true
 
@@ -1838,7 +1838,7 @@ packages:
       proc-log: 3.0.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.5.3
+      semver: 7.5.4
       which: 3.0.1
     transitivePeerDependencies:
       - bluebird
@@ -2216,7 +2216,7 @@ packages:
       '@unocss/core': 0.55.0
       '@unocss/reset': 0.55.0
       '@unocss/vite': 0.55.0(vite@4.4.9)
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2268,9 +2268,11 @@ packages:
       sirv: 2.0.3
     dev: true
 
-  /@unocss/postcss@0.55.0:
+  /@unocss/postcss@0.55.0(postcss@8.4.27):
     resolution: {integrity: sha512-qytqO8riNLpy1m6qVfISVHw3dwNRHgpxcUaufSN7P8lgsbOimwh2nRE35f/HoKS1VV+5JVsVaHmUFQVxwiW6cw==}
     engines: {node: '>=14'}
+    peerDependencies:
+      postcss: ^8.4.21
     dependencies:
       '@unocss/config': 0.55.0
       '@unocss/core': 0.55.0
@@ -2392,7 +2394,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.1
       magic-string: 0.30.2
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -2412,7 +2414,7 @@ packages:
       regenerator-runtime: 0.13.11
       systemjs: 6.14.1
       terser: 5.19.2
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2424,7 +2426,7 @@ packages:
       vite: ^3.0.0 || ^4.0.0
       vue: ^2.7.0-0
     dependencies:
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
       vue: 2.7.14
     dev: true
 
@@ -5117,7 +5119,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       proc-log: 3.0.0
-      semver: 7.5.3
+      semver: 7.5.4
       validate-npm-package-name: 5.0.0
     dev: true
 
@@ -5135,7 +5137,7 @@ packages:
       npm-install-checks: 6.1.1
       npm-normalize-package-bin: 3.0.0
       npm-package-arg: 10.1.0
-      semver: 7.5.3
+      semver: 7.5.4
     dev: true
 
   /npm-registry-fetch@14.0.5:
@@ -6277,7 +6279,7 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /unocss@0.55.0(vite@4.4.9):
+  /unocss@0.55.0(postcss@8.4.27)(vite@4.4.9):
     resolution: {integrity: sha512-mjtN/2Dr495swOA/u/UaA0keCtv8/vFc114pd0D4XzpbK2/nKNB9Got/lmhJp8fxblV+oNtLkD0PaHtpAvSpsw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -6293,7 +6295,7 @@ packages:
       '@unocss/cli': 0.55.0
       '@unocss/core': 0.55.0
       '@unocss/extractor-arbitrary-variants': 0.55.0
-      '@unocss/postcss': 0.55.0
+      '@unocss/postcss': 0.55.0(postcss@8.4.27)
       '@unocss/preset-attributify': 0.55.0
       '@unocss/preset-icons': 0.55.0
       '@unocss/preset-mini': 0.55.0
@@ -6309,8 +6311,9 @@ packages:
       '@unocss/transformer-directives': 0.55.0
       '@unocss/transformer-variant-group': 0.55.0
       '@unocss/vite': 0.55.0(vite@4.4.9)
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
     transitivePeerDependencies:
+      - postcss
       - rollup
       - supports-color
     dev: true
@@ -6468,7 +6471,7 @@ packages:
       json5: 2.2.3
       local-pkg: 0.4.3
       picocolors: 1.0.0
-      vite: 4.4.9(terser@5.19.2)
+      vite: 4.4.9(@types/node@18.7.16)(terser@5.19.2)
       yaml: 2.3.1
     transitivePeerDependencies:
       - supports-color
@@ -6503,42 +6506,6 @@ packages:
         optional: true
     dependencies:
       '@types/node': 18.7.16
-      esbuild: 0.18.20
-      postcss: 8.4.27
-      rollup: 3.28.0
-      terser: 5.19.2
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
-  /vite@4.4.9(terser@5.19.2):
-    resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
       esbuild: 0.18.20
       postcss: 8.4.27
       rollup: 3.28.0
