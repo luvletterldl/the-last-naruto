@@ -3,7 +3,7 @@ import routes from 'virtual:generated-pages'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 
-import '@unocss/reset/tailwind.css'
+import '@unocss/reset/tailwind-compat.css'
 import '~/styles/main.css'
 import 'uno.css'
 

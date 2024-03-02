@@ -2,7 +2,8 @@
   "recommendations": [
     "antfu.iconify",
     "antfu.unocss",
-    "Vue.volar",
+    "antfu.goto-alias",
+    "vue.volar",
     "dbaeumer.vscode-eslint"
   ],
   "unwantedRecommendations": [

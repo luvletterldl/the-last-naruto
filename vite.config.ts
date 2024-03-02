@@ -18,6 +18,9 @@ export default defineConfig({
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
+  css: {
+    transformer: 'lightningcss',
+  },
   plugins: [
     vue(),
 
